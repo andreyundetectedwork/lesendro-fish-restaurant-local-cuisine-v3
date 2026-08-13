@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesendro Fish Restaurant | Local Cuisine</title>
+  <meta name="description" content="Lesendro Fish Restaurant - autentična domaća riblja kuhinja na obali Skadarskog jezera v Vranjina, Montenegro. Sveža riba, predivna terasa i tradicija.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/main.a5bfaf07.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐟</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar" id="top">
+    <div class="nav-container">
+      <a href="#top" class="brand-logo">
+        <span class="brand-title">LESENDRO</span>
+        <span class="brand-sub">FISH RESTAURANT</span>
+      </a>
+
+      <nav class="nav-links" id="navMenu">
+        <a href="#about" data-i18n="nav.about">O nama</a>
+        <a href="#menu" data-i18n="nav.menu">Jelovnik</a>
+        <a href="#reviews" data-i18n="nav.reviews">Utisci</a>
+        <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="sr">SR</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="ru">RU</button>
+        </div>
+        <a href="tel:+38268544222" class="btn-primary btn-sm phone-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span data-i18n="nav.call">Pozovite</span>
+        </a>
+        <button class="mobile-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-content">
+      <nav class="mobile-nav">
+        <a href="#about" class="drawer-link" data-i18n="nav.about">O nama</a>
+        <a href="#menu" class="drawer-link" data-i18n="nav.menu">Jelovnik</a>
+        <a href="#reviews" class="drawer-link" data-i18n="nav.reviews">Utisci</a>
+        <a href="#contact" class="drawer-link" data-i18n="nav.contact">Kontakt</a>
+      </nav>
+      <div class="drawer-footer">
+        <a href="tel:+38268544222" class="btn-primary btn-full">
+          <span>+382 68 544 222</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-bg-wrapper">
+      <img src="assets/img_01.jpg" alt="Lesendro terasa uz vodu sa belim stolnjacima" class="hero-img">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="rating-badge" data-reveal>
+          <span class="stars">★★★★★</span>
+          <span class="rating-score">4.8</span>
+          <span class="rating-count">(<span data-i18n="hero.reviews_count">400+ utisaka</span>)</span>
+        </div>
+        <h1 class="hero-title" data-reveal data-i18n="hero.title">
+          Miris vode, dodir vetra i sveža rečna riba.
+        </h1>
+        <p class="hero-subtitle" data-reveal data-i18n="hero.subtitle">
+          Sveža riba i autentični domaci specijaliteti na samoj obali Skadarskog jezera.
+        </p>
+        <div class="hero-actions" data-reveal>
+          <a href="#menu" class="btn-primary" data-i18n="hero.btn_menu">Pogledajte Jelovnik</a>
+          <a href="tel:+38268544222" class="btn-secondary" data-i18n="hero.btn_call">Rezervišite Sto</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <a href="#about" aria-label="Scroll down">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 13l5 5 5-5M12 6v12"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Atmosphere & Experience (About) -->
+  <section class="story-section section-padding" id="about">
+    <div class="container">
+      <div class="story-grid">
+        <div class="story-card visual-card" data-reveal>
+          <div class="image-box">
+            <img src="assets/img_03.jpg" alt="Bele zavese na vetru sa pogledom na vodu" class="parallax-img" loading="lazy">
+          </div>
+          <div class="visual-caption">
+            <span class="caption-tag" data-i18n="story.tag">Atmosfera</span>
+            <p data-i18n="story.cap1">Lagani letnji povetarac i miris tradicije</p>
+          </div>
+        </div>
+
+        <div class="story-card content-card" data-reveal>
+          <span class="sub-heading" data-i18n="story.subheading">Dobrodošli u Lesendro</span>
+          <h2 class="section-title" data-i18n="story.title">
+            Tradicija koja spaja miris vode i autentične ukuse
+          </h2>
+          <p class="section-desc" data-i18n="story.desc">
+            Smešten u srcu Vranjine, Lesendro pruža jedinstven doživljaj domaće kuhinje tik uz jezero. Naša drvena terasa, bele zavese i sveže pripremljena riba pružaju spokoj i ukuse koje ćete dugo pamtiti.
+          </p>
+          
+          <div class="highlights-list">
+            <div class="highlight-item">
+              <span class="hl-num">01</span>
+              <div>
+                <h4 data-i18n="story.hl1_title">Dnevni ulov</h4>
+                <p data-i18n="story.hl1_desc">Sveža riba iz lokalnih voda spremljena po tradicionalnoj recepturi.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <span class="hl-num">02</span>
+              <div>
+                <h4 data-i18n="story.hl2_title">Terasa na samoj obali</h4>
+                <p data-i18n="story.hl2_desc">Jedinstven pogled na jezero i osvežavajući povetarac tokom čitavog dana.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Banner -->
+  <section class="banner-section">
+    <div class="banner-bg">
+      <img src="assets/img_04.jpg" alt="Čaša belog vina na drvenom stolu u zalazak sunca" loading="lazy">
+    </div>
+    <div class="banner-overlay"></div>
+    <div class="container banner-content text-center" data-reveal>
+      <blockquote class="banner-quote" data-i18n="banner.quote">
+        "Neka domaćini preuzmu brigu o vama, a vi se samo prepustite uživanju."
+      </blockquote>
+      <span class="quote-author">— Boris Brajkovic</span>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu-section section-padding" id="menu">
+    <div class="container">
+      <div class="section-header text-center" data-reveal>
+        <span class="sub-heading" data-i18n="menu.subheading">Gastronomija</span>
+        <h2 class="section-title" data-i18n="menu.title">Naš Jelovnik</h2>
+        <p class="section-subtitle" data-i18n="menu.subtitle">Sveža rečna riba, roštilj i autentični domaći prilozi</p>
+      </div>
+
+      <!-- Dish Spotlight -->
+      <div class="menu-featured" data-reveal>
+        <div class="featured-img-wrap">
+          <img src="assets/img_02.jpg" alt="Sveža rečna riba na roštilju sa limunom" loading="lazy">
+        </div>
+        <div class="featured-text">
+          <span class="featured-badge" data-i18n="menu.featured_badge">Preporuka kuće</span>
+          <h3 data-i18n="menu.featured_title">Riblji Specijalitet Miks za Dvoje</h3>
+          <p data-i18n="menu.featured_desc">Raznovrsni odabir najsvežije ribe sa roštilja, serviran uz sos od limuna, domaćeg bilja i topli domaći hleb.</p>
+        </div>
+      </div>
+
+      <!-- Menu Categories -->
+      <div class="menu-grid">
+        <!-- Fish Category -->
+        <div class="menu-category-block" data-reveal>
+          <h3 class="category-title">
+            <span data-i18n="menu.cat_fish">Riba i Specijaliteti</span> 🐟
+          </h3>
+          <div class="menu-items">
+            <div class="menu-item">
+              <div class="item-head">
+                <h4 class="item-name" data-i18n="menu.item_krap_title">Skadarski Krap</h4>
+              </div>
+              <p class="item-desc" data-i18n="menu.item_krap_desc">Tradicionalno pripremljen krap sa roštilja ili pržen po receptu staraca.</p>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-head">
+                <h4 class="item-name" data-i18n="menu.item_eel_title">Jezerska Jegulja</h4>
+              </div>
+              <p class="item-desc" data-i18n="menu.item_eel_desc">Sveža jegulja pečena na žaru, sočna i bogata autentičnim ukusom.</p>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-head">
+                <h4 class="item-name" data-i18n="menu.item_trout_title">Rečna Pastrmka</h4>
+              </div>
+              <p class="item-desc" data-i18n="menu.item_trout_desc">Lagana i sočna pastrmka pripremljena sa svežim limunom i mediteranskim biljem.</p>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-head">
+                <h4 class="item-name" data-i18n="menu.item_salmon_title">Sveži Losos</h4>
+              </div>
+              <p class="item-desc" data-i18n="menu.item_salmon_desc">Obilna porcija pažljivo grilovanog lososa sa sočnim prilozima.</p>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-head">
+                <h4 class="item-name" data-i18n="menu.item_mix_title">Riblji Miks za 2 Osobe</h4>
+              </div>
+              <p class="item-desc" data-i18n="menu.item_mix_desc">Bogat odabir specijaliteta kuće sa prelivom od limuna i svežih začina.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sides Category -->
+        <div class="menu-category-block" data-reveal>
+          <h3 class="category-title">
+            <span data-i18n="menu.cat_sides">Prilozi i Predjela</span> 🧀
+          </h3>
+          <div class="menu-items">
+            <div class="menu-item">
+              <div class="item-head">
+                <h4 class="item-name" data-i18n="menu.item_cheese_title">Domaći Sir</h4>
+              </div>
+              <p class="item-desc" data-i18n="menu.item_cheese_desc">Autentični lokalni sir punog ukusa, idealan uz čašu rashlađenog vina.</p>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-head">
+                <h4 class="item-name" data-i18n="menu.item_veg_title">Povrće na Žaru</h4>
+              </div>
+              <p class="item-desc" data-i18n="menu.item_veg_desc">Sveže sezonsko povrće pečeno na roštilju sa maslinovim uljem.</p>
+            </div>
+
+            <div class="menu-item">
+              <div class="item-head">
+                <h4 class="item-name" data-i18n="menu.item_bread_title">Domaći Sveži Hleb</h4>
+              </div>
+              <p class="item-desc" data-i18n="menu.item_bread_desc">Topao domaći hleb, nezamenljiv za umaakanje u aromatične sosove.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="reviews-section section-padding" id="reviews">
+    <div class="container">
+      <div class="section-header text-center" data-reveal>
+        <span class="sub-heading" data-i18n="reviews.subheading">Gostoprimstvo</span>
+        <h2 class="section-title" data-i18n="reviews.title">Šta Kažu Naši Gosti</h2>
+        <div class="google-rating-display">
+          <span class="rating-num">4.8</span>
+          <span class="stars">★★★★★</span>
+          <span class="rating-label" data-i18n="reviews.google_text">na osnovu 400+ utisaka</span>
+        </div>
+      </div>
+
+      <div class="reviews-carousel-wrapper" data-reveal>
+        <div class="reviews-snap-grid">
+          
+          <div class="review-card">
+            <div class="review-head">
+              <div class="author-avatar">G</div>
+              <div>
+                <h4 class="author-name">Guillaume de Staercke</h4>
+                <div class="stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text" data-i18n="reviews.r1">
+              Lesendro je jedno od najboljih mesta koje smo posetili u Crnoj Gori za svežu ribu. Probali smo jegulju i pastrmku, i obe su bile izvanredne. Terasa tik uz jezero krasi neverovatan pogled koji iskustvo čini nezaboravnim. Svesrdno preporučujem!
+            </p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-head">
+              <div class="author-avatar">I</div>
+              <div>
+                <h4 class="author-name">Ian Pickens</h4>
+                <div class="stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text" data-i18n="reviews.r2">
+              Apsolutno izvanredno. Jedno od najboljih ribljih jela koja sam ikada jeo. Uzeli smo miks ribljih specijaliteta za dvoje. Ukus je bio vrhunski uz odličan odnos cene i kvaliteta. Obavezno uzmite hleb da umočite u sos od limuna i začinskog bilja!
+            </p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-head">
+              <div class="author-avatar">Y</div>
+              <div>
+                <h4 class="author-name">Yasmin Chowdhury</h4>
+                <div class="stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text" data-i18n="reviews.r3">
+              Divno iskustvo! Usluga je bila predivna, a hrana sveža i ukusna. Uzeli smo lososa, povrće na žaru, hleb i sir. Porcija lososa je bila ogromna — izuzetno pošteno i ukusno!
+            </p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-head">
+              <div class="author-avatar">B</div>
+              <div>
+                <h4 class="author-name">Boris Brajkovic</h4>
+                <div class="stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text" data-i18n="reviews.r4">
+              Ako želite da doživite autentičnu domaću tradicionalnu kuhinju, samo dođite ovde, prepustite se domaćinima i uživajte! Posebno preporučujem krapa!
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Location Section -->
+  <section class="contact-section section-padding" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info-box" data-reveal>
+          <span class="sub-heading" data-i18n="contact.subheading">Posetite Nas</span>
+          <h2 class="section-title" data-i18n="contact.title">Lokacija i Radno Vreme</h2>
+          
+          <div class="info-details">
+            <div class="info-row">
+              <div class="info-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <h4 data-i18n="contact.address_title">Adresa</h4>
+                <p>tankert, Vranjina 81305, Montenegro</p>
+              </div>
+            </div>
+
+            <div class="info-row">
+              <div class="info-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <h4 data-i18n="contact.hours_title">Radno vreme</h4>
+                <p data-i18n="contact.hours_val">Ponedeljak – Nedelja: 12:00 – 22:00</p>
+              </div>
+            </div>
+
+            <div class="info-row">
+              <div class="info-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <h4 data-i18n="contact.phone_title">Telefon za rezervacije</h4>
+                <p><a href="tel:+38268544222" class="phone-link">+382 68 544 222</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="action-buttons">
+            <a href="tel:+38268544222" class="btn-primary" data-i18n="contact.btn_call_now">Pozovite i Rezervišite</a>
+            <a href="https://www.instagram.com/riblji_restoran_/" target="_blank" rel="noopener noreferrer" class="btn-secondary instagram-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              <span>Instagram</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="map-box" data-reveal>
+          <div class="map-card-inner">
+            <div class="map-visual-placeholder">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+              <p class="map-loc-name">Vranjina 81305, Montenegro</p>
+              <a href="https://maps.google.com/?q=tankert,+Vranjina+81305,+Montenegro" target="_blank" rel="noopener noreferrer" class="btn-primary btn-sm" data-i18n="contact.open_maps">
+                Otvorite u Google Maps
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <h3>LESENDRO</h3>
+        <p data-i18n="footer.tagline">Autentična domaća riblja kuhinja na obali Skadarskog jezera.</p>
+      </div>
+      
+      <div class="footer-links">
+        <a href="#about" data-i18n="nav.about">O nama</a>
+        <a href="#menu" data-i18n="nav.menu">Jelovnik</a>
+        <a href="#reviews" data-i18n="nav.reviews">Utisci</a>
+        <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+      </div>
+
+      <div class="footer-social">
+        <a href="https://www.instagram.com/riblji_restoran_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Lesendro Fish Restaurant. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.3df8eafe.js"></script>
+</body>
+</html>
